@@ -48,7 +48,7 @@ while True: #sempre vai repetir nosso contador, até o usuário cansar
     if continuando == 'nao': #se nao quiser continuar, entao pare!
         break
 
-    else: #se quiser continuar, resete nossos valores !!!
+    elif continuando == 'sim': #se quiser continuar, resete nossos valores !!!
         n = []
         quantia = 0
         soma = 0
